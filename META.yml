@@ -5,7 +5,7 @@ author:
 build_requires:
   Test::More: 0.88
 configure_requires:
-  Module::Build::Tiny: 0.025
+  ExtUtils::MakeMaker: 6.30
 dynamic_config: 0
 generated_by: 'Dist::Milla version v1.0.3, Dist::Zilla version 4.300035, CPAN::Meta::Converter version 2.131560'
 license: perl
@@ -23,6 +23,10 @@ no_index:
     - examples
 requires:
   perl: 5.008005
-version: 0.01
+resources:
+  bugtracker: https://github.com/mikegrb/File-Compressible/issues
+  homepage: https://github.com/mikegrb/File-Compressible
+  repository: https://github.com/mikegrb/File-Compressible.git
+version: 0.02
 x_contributors:
-  - 'mikegrb <mgreb@linode.com>'
+  - 'mikegrb <michael@thegrebs.com>'
