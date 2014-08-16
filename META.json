@@ -4,7 +4,7 @@
       "Mike Greb <michael@thegrebs.com>"
    ],
    "dynamic_config" : 0,
-   "generated_by" : "Dist::Milla version v1.0.3, Dist::Zilla version 4.300035, CPAN::Meta::Converter version 2.131560",
+   "generated_by" : "Dist::Milla version v1.0.5, Dist::Zilla version 5.020, CPAN::Meta::Converter version 2.142060",
    "license" : [
       "perl_5"
    ],
@@ -26,7 +26,7 @@
    "prereqs" : {
       "configure" : {
          "requires" : {
-            "ExtUtils::MakeMaker" : "6.30"
+            "ExtUtils::MakeMaker" : "0"
          }
       },
       "develop" : {
@@ -57,9 +57,10 @@
          "web" : "https://github.com/mikegrb/File-Compressible"
       }
    },
-   "version" : "0.02",
+   "version" : "1.00",
    "x_contributors" : [
-      "mikegrb <michael@thegrebs.com>"
+      "Mike Greb <mikegrb@cpan.org>",
+      "Rev Michael Greb <michael@thegrebs.com>"
    ]
 }
 

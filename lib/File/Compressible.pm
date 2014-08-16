@@ -6,7 +6,7 @@ use warnings;
 use List::Util 'first';
 use Exporter 'import';
 
-our $VERSION   = '0.02';
+our $VERSION   = '1.00';
 our @EXPORT_OK = (qw(compressible));
 
 our @compressible = qw(
@@ -49,7 +49,7 @@ File::Compressible - determine if a mime type is compressible
 
 =head1 SYNOPSIS
 
-  use File::Compressible 'compressible;
+  use File::Compressible 'compressible';
   use File::Type;
   ...
   my $ft = File::Type->new();
